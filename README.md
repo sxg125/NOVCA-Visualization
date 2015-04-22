@@ -9,7 +9,7 @@ git clone https://github.com/sxg125/NOVCA-Visualization
 Go to NOVCA-Visualization directory:
 cd NOVCA-Visualization
 
-Load the vtk and python module:
+Load vtk and python modules:
 module load vtk; module load python
 
 Run the python script:
