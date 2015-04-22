@@ -11,8 +11,7 @@ Go to NOVCA-Visualization directory:
 cd NOVCA-Visualization
 
 Load the vtk and python module:
-module load vtk
-module load python
+module load vtk; module load python
 
 Run the python script:
 python paraviewGraph.py
