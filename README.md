@@ -3,8 +3,7 @@
 The pyhton script "paraviewGraph.py" is executed to get the unstructured VTK file "vertex.vtu" which is fed to ParaView to get the graph similar to "graph.png".
 
 # CWRU HPC Specific Guide
-Login to HPC
-Clone the Repository:
+Login to HPC & clone the Repository:
 git clone https://github.com/sxg125/NOVCA-Visualization
 
 Go to NOVCA-Visualization directory:
