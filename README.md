@@ -1,6 +1,6 @@
 # NOVCA-Visualization
 
-The pyhton script "paraviewGraph.py" is executed to get the unstructured VTK file "vertex.vtu" which is fed to ParaView to get the graph similar to "graph.png".
+The python script "paraviewGraph.py" is executed to get the unstructured VTK file "vertex.vtu" which is fed to ParaView to get the graph similar to "graph.png".
 
 # CWRU HPC Specific Guide
 Login to HPC & load the git module:
