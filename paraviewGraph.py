@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-# Sanjaya Gajurel, Computational Scientiest, Case Western Reserve University, April 2015
+# Sanjaya Gajurel, Computational Scientist, Case Western Reserve University, April 2015
 import sys
 import vtk
 import os
@@ -80,4 +80,4 @@ if __name__ == "__main__":
     gw.Write()
     print '---> ',
     
-    print "Feed the vertex.vtu file in ParaView."
+    print "Feed the vertex.vtu file in ParaView/VisIt."
