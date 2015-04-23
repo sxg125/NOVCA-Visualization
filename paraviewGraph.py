@@ -67,7 +67,7 @@ if __name__ == "__main__":
     line.InsertCellPoint(4)
     line.InsertCellPoint(6)
            
-    # Add the verteics and edges to unstructured Grid
+    # Add the vertices and edges to unstructured Grid
     G = vtk.vtkUnstructuredGrid()
     G.GetPointData().SetScalars(degree)
     G.SetPoints(Points)
