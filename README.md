@@ -10,7 +10,7 @@ clone the Repository:
 * git clone https://github.com/sxg125/NOVCA-Visualization
 
 Checkout the VTKCxx branch:
-* 
+* git checkout VTKCxx
 
 Go to NOVCA-Visualization directory:
 * cd NOVCA-Visualization
@@ -27,6 +27,6 @@ Comiple the Code:
 * make
 
 Run the Executable:
-./CreateGraph
+* ./CreateGraph
 
 You will get the "testVertex.vtu" file which needs to be fed to the ParaView (https://sites.google.com/a/case.edu/hpc-upgraded-cluster/home/Software-Guide/paraview). Open the file in ParaView, apply glyph and get the one similar to graph "graphCXX.png".
