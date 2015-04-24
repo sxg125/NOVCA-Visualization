@@ -1,6 +1,6 @@
 # NOVCA-Visualization
 
-The python script "paraviewGraph.py" is executed to get the unstructured VTK file "vertex.vtu" which is fed to ParaView to get the graph similar to "graph.png".
+The execuatable "CreateGraph", which by complining using cmake, is executed to get the unstructured VTK file "testVertex.vtu" which is fed to ParaView to get the graph similar to "graphCXX.png".
 
 # CWRU HPC Specific Guide
 Login to HPC & load the git module:
@@ -9,14 +9,24 @@ Login to HPC & load the git module:
 clone the Repository:
 * git clone https://github.com/sxg125/NOVCA-Visualization
 
+Checkout the VTKCxx branch:
+* 
+
 Go to NOVCA-Visualization directory:
 * cd NOVCA-Visualization
 
-Load vtk and python modules:
+Load vtk,depends and cmake modules:
 * module load vtk
-* module load python
+* module load depends
+* module load cmake
 
-Run the python script:
-* python paraviewGraph.py
+Comiple the Code:
+* mkdir buid
+* cd build
+* ccmake ..
+* make
 
-You will get the "vertex.vtu" file which needs to be fed to the ParaView (https://sites.google.com/a/case.edu/hpc-upgraded-cluster/home/Software-Guide/paraview). Open the file in ParaView, apply glyph and get the one similar to graph "graph.png".
+Run the Executable:
+./CreateGraph
+
+You will get the "testVertex.vtu" file which needs to be fed to the ParaView (https://sites.google.com/a/case.edu/hpc-upgraded-cluster/home/Software-Guide/paraview). Open the file in ParaView, apply glyph and get the one similar to graph "graphCXX.png".
