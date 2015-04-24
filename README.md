@@ -9,11 +9,11 @@ Login to HPC & load the git module:
 clone the Repository:
 * git clone https://github.com/sxg125/NOVCA-Visualization
 
-Checkout the VTKCxx branch:
-* git checkout VTKCxx
-
 Go to NOVCA-Visualization directory:
 * cd NOVCA-Visualization
+
+Checkout the VTKCxx branch:
+* git checkout VTKCxx
 
 Load vtk, depends and cmake modules:
 * module load vtk
