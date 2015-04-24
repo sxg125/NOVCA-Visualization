@@ -15,7 +15,7 @@ Checkout the VTKCxx branch:
 Go to NOVCA-Visualization directory:
 * cd NOVCA-Visualization
 
-Load vtk,depends and cmake modules:
+Load vtk, depends and cmake modules:
 * module load vtk
 * module load depends
 * module load cmake
