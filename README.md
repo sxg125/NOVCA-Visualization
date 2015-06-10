@@ -7,7 +7,7 @@ Login to HPC & load the git module:
 ```
 module load git
 ```
-clone the Repository:
+Clone the Repository:
 ```
  git clone https://github.com/sxg125/NOVCA-Visualization
 ```
