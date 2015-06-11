@@ -1,11 +1,11 @@
 # Table of Contents
 1. [NOVCA-Visualization](#NOVCA-Visualization)
 2. [CWRU HPC Specific Guide](#CWRU HPC Specific Guide)
-3. [References](#References)
 
+<div id='NOVCA-Visualization'/>
 ## NOVCA-Visualization
 The python script "paraviewGraph.py" is executed to get the unstructured VTK file "vertex.vtu" which is fed to ParaView to get the graph similar to "graph.png".
-
+<div id='CWRU HPC Specific Guide'/>
 ## CWRU HPC Specific Guide
 Login to HPC & load the git module:
 ```
