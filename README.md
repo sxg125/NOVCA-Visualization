@@ -20,7 +20,7 @@ Load vtk, depends and cmake modules:
 * module load depends
 * module load cmake
 
-Comiple the Code:
+Compile the Code:
 * mkdir buid
 * cd build
 * ccmake ..
@@ -29,4 +29,4 @@ Comiple the Code:
 Run the Executable:
 * ./CreateGraph
 
-You will get the "testVertex.vtu" file which needs to be fed to the ParaView (https://sites.google.com/a/case.edu/hpc-upgraded-cluster/home/Software-Guide/paraview). Open the file in ParaView, apply glyph and get the one similar to graph "graphCXX.png".
+You will get the "testVertex.vtu" file which needs to be fed to the [ParaView] (https://sites.google.com/a/case.edu/hpc-upgraded-cluster/home/Software-Guide/paraview). Open the file in ParaView, apply glyph and get the one similar to graph "graphCXX.png".
