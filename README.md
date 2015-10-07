@@ -28,7 +28,7 @@ Run the python script:
 ```
 python paraviewGraph.py
 ```
-You will get the "vertex.vtu" file which needs to be fed to the ParaView (https://sites.google.com/a/case.edu/hpc-upgraded-cluster/home/Software-Guide/paraview). Open the file in ParaView, apply glyph and get the one similar to graph "graph.png".
+You will get the "vertex.vtu" file which needs to be fed to the ParaView- [ParaView] (https://sites.google.com/a/case.edu/hpc-upgraded-cluster/home/Software-Guide/paraview). Open the file in ParaView, apply glyph and get the one similar to graph "graph.png".
 ## References
 1. [VTK/Python] (http://www.vtk.org/Wiki/VTK/Examples/Python/Graphs/NOVCAGraph)
 2. [VTK/Cxx] (http://www.vtk.org/Wiki/VTK/Examples/Cxx/Graphs/NOVCAGraph)
