@@ -23,7 +23,7 @@ Load vtk, depends and cmake modules:
 Compile the Code:
 * mkdir buid
 * cd build
-* ccmake ..
+* cmake ..
 * make
 
 Run the Executable:
